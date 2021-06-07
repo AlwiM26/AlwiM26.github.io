@@ -9,24 +9,24 @@ function Content(props) {
             <div className="hero" id="about">
                 <div className="introsection">
                     <p className="personalname">
-                        Hello👋, <br /> I'm Alwi Muhammad
-                    <a href="https://www.linkedin.com/in/alwimhd/" target="_blank"><i className="fab fa-linkedin btnsocial"></i></a>
-                        <a href="https://github.com/AlwiM26" target="_blank"><i className="fab fa-github btnsocial"></i></a>
-                        {/* <a href="https://medium.com/@AlwiM" target="_blank"><i className="fab fa-medium-m btnsocial"></i></a> */}
+                        Hello👋, <br /> My name is Alwi Muhammad
+                    <a href="https://www.linkedin.com/in/alwimhd/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin btnsocial"></i></a>
+                        <a href="https://github.com/AlwiM26" target="_blank" rel="noreferrer"><i className="fab fa-github btnsocial"></i></a>
+                        {/* <a href="https://medium.com/@AlwiM" target="_blank" rel="noreferrer"><i className="fab fa-medium-m btnsocial"></i></a> */}
                     </p>
                     <p className="job">
                         Software engineer | Fresh graduate
                 </p>
                 </div>
-                <img src={ava} alt="Profile Picture" className="avatar" />
+                <img src={ava} alt="Profile" className="avatar" />
             </div>
 
             <div className="section">
                 <p className="sectiontitle">aboutMe()</p>
                 <p className="sectionparagraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ea quia a quas. Ut ipsum nam consectetur, nesciunt facilis dolorem nostrum non similique cupiditate, saepe voluptas dolor exercitationem repudiandae voluptatem!
-                    Dignissimos iste qui impedit rerum nam, temporibus quos sed recusandae voluptas sit dicta culpa provident, voluptatem fugiat, commodi exercitationem. Facere perferendis maxime illum sint eius expedita ut voluptatem sit ipsam.
-                    Pariatur dolores exercitationem nostrum excepturi voluptatum error molestiae reiciendis! Fugiat ipsa tempore asperiores atque earum aspernatur autem voluptas excepturi ipsum similique eos, debitis error dolore quae velit modi, placeat soluta?
+                    Hi! My name is Alwi Muhammad. I'm a fresh graduate with a bachelor degree in Information Technology. Skilled in computer science, Java,
+                    Python and i have experience in Cross-platform Mobile Application Development using Flutter. I have high passion in technology and very
+                    interested in learning a new thing. Ability to work independently or as part of a team.
                 </p>
                 <a href="#" className="btnresume">
                     Download Resume

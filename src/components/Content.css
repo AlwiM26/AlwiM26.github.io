@@ -1,15 +1,16 @@
 .avatar {
-    width: 27%;
+    width: 100%;
+    max-width: 499px;
     height: auto;
 }
 
 .personalname {
-    font-size: 38px;
+    font-size: 4vh;
     font-weight: bold;
 }
 
 .introsection {
-    width: 40%;
+    /* width: 40%; */
 }
 
 .job {
@@ -20,14 +21,16 @@
 
 .hero {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width: 84%;
+    justify-content: space-between;
     padding: 6rem 2.5rem 2rem 2.5rem;
     align-items: center;
+    margin: 0 auto;
 }
 
 .btnsocial {
     color: #737373;
+    margin-left: 20px;
 }
 
 .btnsocial:hover {
@@ -122,4 +125,15 @@
     border-bottom: 1px solid #dfe1e5;
     margin: 20px auto 20px 0;
     padding: .5rem;
+}
+
+@media only screen and (max-width: 872px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .introsection {
+        width: 100%;
+        margin-bottom: 40px;
+    }
 }
