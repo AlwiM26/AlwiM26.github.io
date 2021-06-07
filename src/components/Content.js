@@ -1,6 +1,7 @@
 import './Content.css';
-import ava from '../images/ava.jpg'
-import covercikpuan from '../images/CikPuanCover.jpg';
+import ava from '../images/ava.jpg';
+import resume from '../Resume_AlwiMuhammad.pdf';
+import ProjectItems from './ProjectItems';
 
 function Content(props) {
     return (
@@ -24,58 +25,42 @@ function Content(props) {
             <div className="section">
                 <p className="sectiontitle">aboutMe()</p>
                 <p className="sectionparagraph">
-                    Hi! My name is Alwi Muhammad. I'm a fresh graduate with a bachelor degree in Information Technology. Skilled in computer science, Java,
-                    Python and i have experience in Cross-platform Mobile Application Development using Flutter. I have high passion in technology and very
-                    interested in learning a new thing. Ability to work independently or as part of a team.
+                    Hi! My name is Alwi Muhammad. I'm a fresh graduate with a bachelor degree in Information Technology. Skilled
+                    in computer science, Java, Javascript, Python, Flutter, and React native. I have high passion in mobile apps
+                    development and machine learning, and very interested in learning a new thing. Ability to work independently
+                    or as part of a team.
                 </p>
-                <a href="#" className="btnresume">
+                <a href={resume} download="Resume_AlwiMuhammad.pdf" className="btnresume">
                     Download Resume
                 </a>
             </div>
 
             <div className="section" id="project">
                 <p className="sectiontitle">projects()</p>
-                <a href="#">
-                    <div className="containerproject">
-                        <img src={covercikpuan} alt="Project Cover" className="projectcover" />
-                        <div className="projectdesc">
-                            <p className="projectName">CikPuan</p>
-                            <p className="sectionparagraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor sit nisi tenetur eius, natus aspernatur, earum saepe voluptatum cupiditate quae fugit pariatur dolorum assumenda consequatur repellendus. Repudiandae, harum quam.
-                                Laborum explicabo nam, officia modi autem eos mollitia temporibus dolore vel maiores. Fugit reprehenderit dicta quaerat. Nihil aliquam, atque eum vero tenetur, autem cupiditate, modi officia quo fugiat impedit odio.
-                                Sequi provident esse accusantium distinctio, sit earum omnis. Nihil architecto laudantium necessitatibus corporis, voluptatum laborum dolor asperiores rerum, dicta cumque nesciunt incidunt repudiandae tempore deserunt ut quam unde, ducimus iure.
-                            </p>
-                            <p className="techtitle">Technologies :</p>
-                            <div className="projectbottom">
-                                <ul>
-                                    <li className="projecttech">Dart</li>
-                                    <li className="projecttech">Flutter</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </a>
 
-                <a href="#">
-                    <div className="containerproject">
-                        <img src={covercikpuan} alt="Project Cover" className="projectcover" />
-                        <div className="projectdesc">
-                            <p className="projectName">CikPuan</p>
-                            <p className="sectionparagraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor sit nisi tenetur eius, natus aspernatur, earum saepe voluptatum cupiditate quae fugit pariatur dolorum assumenda consequatur repellendus. Repudiandae, harum quam.
-                                Laborum explicabo nam, officia modi autem eos mollitia temporibus dolore vel maiores. Fugit reprehenderit dicta quaerat. Nihil aliquam, atque eum vero tenetur, autem cupiditate, modi officia quo fugiat impedit odio.
-                                Sequi provident esse accusantium distinctio, sit earum omnis. Nihil architecto laudantium necessitatibus corporis, voluptatum laborum dolor asperiores rerum, dicta cumque nesciunt incidunt repudiandae tempore deserunt ut quam unde, ducimus iure.
-                            </p>
-                            <p className="techtitle">Technologies :</p>
-                            <div className="projectbottom">
-                                <ul>
-                                    <li className="projecttech">Dart</li>
-                                    <li className="projecttech">Flutter</li>
-                                </ul>
+                {ProjectItems.map((item, id) => {
+                    return (
+                        <a href="#">
+                            <div className="containerproject">
+                                <img src={item.ProjectCover} alt="Project Cover" className="projectcover" />
+                                <div className="projectdesc">
+                                    <p className="projectname">{item.projectName}</p>
+                                    <p className="sectionparagraph">{item.projectDesc}</p>
+                                    <p className="techtitle">Technologies :</p>
+                                    <div className="projectbottom">
+                                        <ul>
+                                            {item.projectTech.map((tech, techId) => {
+                                                return (
+                                                    <li className="projecttech">{tech}</li>
+                                                );
+                                            })}
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </a>
+                        </a>
+                    );
+                })}
             </div>
 
             <div className="section" id="contact">

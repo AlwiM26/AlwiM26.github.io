@@ -53,6 +53,7 @@
 
 .sectionparagraph {
     font-size: 17px;
+    margin-bottom: 14px;
 }
 
 .btnresume {
@@ -71,7 +72,7 @@
     display: flex;
     border: 1px solid #71777c;
     margin-bottom: 60px;
-    transition: transform .1s   ;
+    transition: transform .1s;    
 }
 
 .containerproject:hover {
@@ -80,13 +81,15 @@
 }
 
 .projectcover {
-    width: 29%;
+    width: 100%;
+    max-width: 521px;
     height: auto;
 }
 
 .projectname {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 14px;
 }
 
 .projectdesc {
@@ -102,16 +105,19 @@
     border: 1px solid #dfe1e5;
     font-size: 14px;
     margin-right: 10px;
+    margin-bottom: 14px;
 }
 
 .projectbottom {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 14px;
 }
 
 .techtitle {
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 14px;
 }
 
 .emailtitle {
@@ -135,5 +141,9 @@
     .introsection {
         width: 100%;
         margin-bottom: 40px;
+    }
+
+    .containerproject {
+        flex-direction: column;
     }
 }
