@@ -15,13 +15,13 @@ function Navbar(props) {
         <a href="/" ><img src={logo} className="navlogo" alt="Logo" /></a>
         <ul className={clicked ? "menunav" : "menunav active"}>
           <li className="itemnav">
-            <a href="#about" className="linknav">aboutMe()</a>
+            <a href="#about" className="linknav" onClick={() => handleClick()}>aboutMe()</a>
           </li>
           <li className="itemnav">
-            <a href="#project" className="linknav">projects()</a>
+            <a href="#project" className="linknav" onClick={() => handleClick()}>projects()</a>
           </li>
           <li className="itemnav">
-            <a href="#contact" className="linknav">contact()</a>
+            <a href="#contact" className="linknav" onClick={() => handleClick()}>contact()</a>
           </li>
         </ul>
         <div className="mobilemenu" onClick={() => handleClick()}>
