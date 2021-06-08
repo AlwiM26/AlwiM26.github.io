@@ -1,149 +1,149 @@
 .avatar {
-    width: 100%;
-    max-width: 499px;
-    height: auto;
+  width: 100%;
+  max-width: 499px;
+  height: auto;
 }
 
 .personalname {
-    font-size: 4vh;
-    font-weight: bold;
+  font-size: 4vh;
+  font-weight: bold;
 }
 
 .introsection {
-    /* width: 40%; */
+  /* width: 40%; */
 }
 
 .job {
-    font-size: 16px;    
-    margin-top: 16px;
-    color: #adadad;
+  font-size: 16px;
+  margin-top: 16px;
+  color: #adadad;
 }
 
 .hero {
-    display: flex;
-    width: 84%;
-    justify-content: space-between;
-    padding: 6rem 2.5rem 2rem 2.5rem;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  width: 84%;
+  justify-content: space-between;
+  padding: 6rem 2.5rem 2rem 2.5rem;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .btnsocial {
-    color: #737373;
-    margin-left: 20px;
+  color: #737373;
+  margin-left: 20px;
 }
 
 .btnsocial:hover {
-    color: #dfe1e5;
+  color: #dfe1e5;
 }
 
 .section {
-    width: 84%;
-    display: flex;
-    padding: 3rem 2.5rem;
-    flex-direction: column;
-    margin: 0 auto;
+  width: 84%;
+  display: flex;
+  padding: 3rem 2.5rem;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .sectiontitle {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 40px;
+  font-size: 5vh;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
 .sectionparagraph {
-    font-size: 17px;
-    margin-bottom: 14px;
+  font-size: 17px;
+  margin-bottom: 14px;
 }
 
 .btnresume {
-    margin: 40px auto 20px 0;
-    border: 1px solid #dfe1e5;
-    padding: 1.5rem;
-    font-size: 14px;
+  margin: 40px auto 20px 0;
+  border: 1px solid #dfe1e5;
+  padding: 1.5rem;
+  font-size: 14px;
 }
 
 .btnresume:hover {
-    background-color: #dfe1e5;
-    color: #070707;
+  background-color: #dfe1e5;
+  color: #070707;
 }
 
 .containerproject {
-    display: flex;
-    border: 1px solid #71777c;
-    margin-bottom: 60px;
-    transition: transform .1s;    
+  display: flex;
+  border: 1px solid #71777c;
+  margin-bottom: 60px;
+  transition: transform 0.1s;
 }
 
 .containerproject:hover {
-    cursor: pointer;
-    transform: scale(1.03);
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .projectcover {
-    width: 100%;
-    max-width: 521px;
-    height: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .projectname {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 14px;
+  font-size: 3.5vh;
+  font-weight: bold;
+  margin-bottom: 14px;
 }
 
 .projectdesc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem 2.5rem;
 }
 
 .projecttech {
-    float: left;
-    padding: .5rem;
-    border: 1px solid #dfe1e5;
-    font-size: 14px;
-    margin-right: 10px;
-    margin-bottom: 14px;
+  float: left;
+  padding: 0.5rem;
+  border: 1px solid #dfe1e5;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 14px;
 }
 
 .projectbottom {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
 }
 
 .techtitle {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 14px;
 }
 
 .emailtitle {
-    font-size: 27px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .emailbtn {
-    font-size: 17px;
-    border-bottom: 1px solid #dfe1e5;
-    margin: 20px auto 20px 0;
-    padding: .5rem;
+  font-size: 17px;
+  border-bottom: 1px solid #dfe1e5;
+  margin: 20px auto 20px 0;
+  padding: 0.5rem;
 }
 
 @media only screen and (max-width: 872px) {
-    .hero {
-        flex-direction: column;
-    }
+  .hero {
+    flex-direction: column;
+  }
 
-    .introsection {
-        width: 100%;
-        margin-bottom: 40px;
-    }
+  .introsection {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 
-    .containerproject {
-        flex-direction: column;
-    }
+  .containerproject {
+    flex-direction: column;
+  }
 }

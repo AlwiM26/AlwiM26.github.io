@@ -1,0 +1,119 @@
+.portfoliocontainer {
+  width: 84%;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.projecttitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  margin-top: 10px;
+}
+
+.projectbio {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.techtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.techcontent {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.linkcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projectlink {
+  margin: 20px 12px 20px 0;
+  border: 1px solid #dfe1e5;
+  padding: 1.5rem;
+  font-size: 14px;
+}
+
+.projectlink:hover {
+  background: #dfe1e5;
+  color: #070707;
+}
+
+.containerss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.containerssinner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.imgappsf {
+  width: 100%;
+  max-width: 416px;
+  height: auto;
+  transition: transform 0.1s;
+  background: transparent;
+}
+
+.imgapps {
+  width: 50%;
+  max-width: 192px;
+  height: auto;
+  transition: transform 0.1s;
+  background: transparent;
+}
+
+.imgapps:hover,
+.imgappsf:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.ssmodalcontainer {
+  width: 100%;
+  height: 100%;
+  display: none; /* change to flex to display image, and change overflow in html */
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #0707076b;
+}
+
+.ssmodalcontainer.active,
+html {
+  display: flex;
+  overflow-y: scroll;
+  /* overflow: hidden; */
+}
+
+.ssmodal {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  min-width: 280px;
+  margin: auto auto;
+  background: transparent;
+}
+
+@media only screen and (max-width: 872px) {
+  .containerss {
+    flex-direction: column;
+    align-items: center;
+  }
+}
