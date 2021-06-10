@@ -1,15 +1,16 @@
-import "./Content.css";
+import { Link } from "react-router-dom";
+import "./Home.css";
 import ava from "../images/ava.jpg";
 import resume from "../Resume_AlwiMuhammad.pdf";
 import ProjectItems from "./ProjectItems";
 
-function Content(props) {
+function Home(props) {
   return (
     <div>
       <div className="hero" id="about">
         <div className="introsection">
           <p className="personalname">
-            Hello👋, <br /> My name is Alwi Muhammad
+            Hi👋, <br /> I'm Alwi Muhammad
             <a
               href="https://www.linkedin.com/in/alwimhd/"
               target="_blank"
@@ -55,7 +56,7 @@ function Content(props) {
 
         {ProjectItems.map((item, id) => {
           return (
-            <a href="#">
+            <Link to="/projectDetail">
               <div className="containerproject">
                 <img
                   src={item.ProjectCover}
@@ -75,7 +76,7 @@ function Content(props) {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           );
         })}
       </div>
@@ -96,4 +97,4 @@ function Content(props) {
   );
 }
 
-export default Content;
+export default Home;

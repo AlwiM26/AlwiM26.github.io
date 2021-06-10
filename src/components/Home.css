@@ -9,10 +9,6 @@
   font-weight: bold;
 }
 
-.introsection {
-  /* width: 40%; */
-}
-
 .job {
   font-size: 16px;
   margin-top: 16px;
@@ -115,7 +111,7 @@
 }
 
 .techtitle {
-  font-size: 18px;
+  font-size: 2.2vh;
   font-weight: bold;
   margin-bottom: 14px;
 }

@@ -1,17 +1,22 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Content from "./components/Content";
+import Home from "./components/Home";
 import ProjectDetail from "./components/ProjectDetail";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Content />
-      {/* <ProjectDetail /> */}
+      <div>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/projectDetail/" exact component={ProjectDetail} />
+        </Switch>
+      </div>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

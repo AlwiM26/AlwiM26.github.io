@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import "./Navbar.css";
 
@@ -12,32 +13,36 @@ function Navbar(props) {
   return (
     <div className="header">
       <div className="topnav">
-        <a href="/">
+        <Link to="/">
           <img src={logo} className="navlogo" alt="Logo" />
-        </a>
+        </Link>
         <ul className={clicked ? "menunav active" : "menunav"}>
           <li className="itemnav">
-            <a href="#about" className="linknav" onClick={() => handleClick()}>
+            <Link
+              to="/#about"
+              className="linknav"
+              onClick={() => handleClick()}
+            >
               aboutMe()
-            </a>
+            </Link>
           </li>
           <li className="itemnav">
-            <a
-              href="#project"
+            <Link
+              to="/#project"
               className="linknav"
               onClick={() => handleClick()}
             >
               projects()
-            </a>
+            </Link>
           </li>
           <li className="itemnav">
-            <a
-              href="#contact"
+            <Link
+              to="/#contact"
               className="linknav"
               onClick={() => handleClick()}
             >
               contact()
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="mobilemenu" onClick={() => handleClick()}>

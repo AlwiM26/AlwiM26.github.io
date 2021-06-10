@@ -11,7 +11,7 @@ import cp7 from "../images/CikPuan/CikPuan7.png";
 
 function ProjectDetail(props) {
   const [openedModal, setOpenedModal] = useState(false);
-  const [whichModal, setWhichModal] = useState(cp1);
+  const [whichModal, setWhichModal] = useState(null);
 
   const handleModal = (val = cp1) => {
     setOpenedModal(!openedModal);
@@ -32,7 +32,7 @@ function ProjectDetail(props) {
             Github
           </a>
         </div>
-        <p className="techtitle">Technologies :</p>
+        <p className="techtitledetail">Technologies :</p>
         <p className="techcontent">Dart, Flutter</p>
         <div className="containerss">
           <img
