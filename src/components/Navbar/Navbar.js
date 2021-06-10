@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import logo from "../../images/logo.png";
 import "./Navbar.css";
 
@@ -18,31 +19,31 @@ function Navbar(props) {
         </Link>
         <ul className={clicked ? "menunav active" : "menunav"}>
           <li className="itemnav">
-            <Link
+            <HashLink
               to="/#about"
               className="linknav"
               onClick={() => handleClick()}
             >
               aboutMe()
-            </Link>
+            </HashLink>
           </li>
           <li className="itemnav">
-            <Link
+            <HashLink
               to="/#project"
               className="linknav"
               onClick={() => handleClick()}
             >
               projects()
-            </Link>
+            </HashLink>
           </li>
           <li className="itemnav">
-            <Link
+            <HashLink
               to="/#contact"
               className="linknav"
               onClick={() => handleClick()}
             >
               contact()
-            </Link>
+            </HashLink>
           </li>
         </ul>
         <div className="mobilemenu" onClick={() => handleClick()}>
