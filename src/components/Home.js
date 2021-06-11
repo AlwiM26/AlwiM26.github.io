@@ -56,7 +56,7 @@ function Home(props) {
 
         {ProjectItems.map((item, id) => {
           return (
-            <Link to="/projectDetail">
+            <Link to="/projectDetail" key={id}>
               <div className="containerproject">
                 <img
                   src={item.ProjectCover}
@@ -70,7 +70,7 @@ function Home(props) {
                   <div className="projectbottom">
                     <ul>
                       {item.projectTech.map((tech, techId) => {
-                        return <li className="projecttech">{tech}</li>;
+                        return <li className="projecttech" key={techId}>{tech}</li>;
                       })}
                     </ul>
                   </div>
