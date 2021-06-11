@@ -56,7 +56,7 @@ function Home(props) {
 
         {ProjectItems.map((item, id) => {
           return (
-            <Link to="/projectDetail" key={id}>
+            <Link to={`/projectDetail/${item.projectName}`} key={id}>
               <div className="containerproject">
                 <img
                   src={item.ProjectCover}

@@ -23,10 +23,15 @@
   margin-bottom: 10px;
 }
 
+.techContainer {
+  display: flex;
+}
+
 .techcontent {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-right: 18px;
 }
 
 .linkcontainer {
