@@ -36,9 +36,9 @@ function ProjectDetail(props) {
         </div>
         <p className="techtitledetail">Technologies :</p>
         <div className="techContainer">
-          {projectTech.map((tech, id) => {
+          {projectTech.map((tech, techId) => {
             return (
-              <p className="techcontent" key={id}>{tech}</p>
+              <p className="techcontent" key={techId}>{tech}</p>
             );
           })}
         </div>
@@ -54,7 +54,8 @@ function ProjectDetail(props) {
               return (
                 <img
                   src={ss}
-                  alt="Homescreen"
+                  key={ssId}
+                  alt="ScreenShot"
                   className="imgapps"
                   onClick={() => handleModal(ss)}
                 />

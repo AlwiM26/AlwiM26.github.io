@@ -39,7 +39,7 @@ const ProjectItems = [
     projectSS: [mic2, mic3, mic4, mic5, mic6, mic7],
     projectLink: [
       { name: "Github", url: "https://github.com/AlwiM26/MusicalInstrumentClassifier" },
-      { name: "Medium", url: "https://medium.com/@AlwiM" }
+      { name: "Medium", url: "https://medium.com/@AlwiM" },
     ],
   },
 ];

@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home";
 import ProjectDetail from "./components/ProjectDetail";
+import NotFound from "./components/NotFound";
+import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/projectDetail/:name" exact component={ProjectDetail} />
+          <Route path="*" exact component={NotFound} />
         </Switch>
       </div>
       <Footer />
