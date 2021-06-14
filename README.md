@@ -1,5 +1,8 @@
 
-(/public/logo512.png)
+<h3 align="center">
+  <img src="/public/logo512.png" width="300">
+</h3>
+
 
 # Portfolio
 
