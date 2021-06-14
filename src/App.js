@@ -12,13 +12,11 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <div>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/projectDetail/:name" exact component={ProjectDetail} />
-          <Route path="*" exact component={NotFound} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/projectDetail/:name" exact component={ProjectDetail} />
+        <Route path="*" exact component={NotFound} />
+      </Switch>
       <Footer />
     </Router>
   );

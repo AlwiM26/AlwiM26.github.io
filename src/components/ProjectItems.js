@@ -33,7 +33,7 @@ const ProjectItems = [
     projectName: "Musical Instrument Classifier",
     ProjectCover: coverMIC,
     projectDesc:
-      "MIC is an android-based application developed by Caltex Riau Polytechnic in collaboration with the Pekanbaru City Government to check and trace covid 19 cases in Pekanbaru. This application also has other features, including: Covid-19 Check, Early Warning Destination, Covid-19 Education and Hospital Information.",
+      "MIC Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere vitae vel, velit rem possimus libero nulla ipsam eligendi ab, eius qui molestiae laboriosam. Qui quis animi cum nulla quas!",
     projectTech: ["Java", "Python", "Tensorflow", "FFMPEG"],
     projectSSMain: mic1,
     projectSS: [mic2, mic3, mic4, mic5, mic6, mic7],

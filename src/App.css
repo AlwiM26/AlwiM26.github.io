@@ -12,9 +12,14 @@ body {
 }
 
 html {
+  height: 100%;
   font-size: 70%;
   font-family: Source Code Pro;
   scroll-behavior: smooth;
+}
+
+#root {
+  height: 100%;
 }
 
 li {

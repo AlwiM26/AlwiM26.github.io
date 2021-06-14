@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom';
+import "./NotFound.css"
 
 function NotFound() {
     return (
         <div className="containernotfound">
-            <h1>404 ERR</h1>
-            <h2>Sorry you've lost</h2>
-            <Link to="/">Go back to home</Link>
+            <p className="notfoundtitle">404</p>
+            <div className="containernotfounddetail">
+                <p className="notfounddesc">Page Not Found <br /> The page you are looking for doesn't exist or has been moved</p>
+                <Link to="/" className="btnhome">Go back to home</Link>
+            </div>
         </div>
     );
 }
