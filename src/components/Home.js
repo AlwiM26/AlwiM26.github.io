@@ -10,7 +10,7 @@ function Home(props) {
       <div className="hero" id="about">
         <div className="introsection">
           <p className="personalname">
-            Hi👋, <br /> I'm Alwi Muhammad
+            Hello👋, <br /> I'm Alwi Muhammad
             <a
               href="https://www.linkedin.com/in/alwimhd/"
               target="_blank"
