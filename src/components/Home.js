@@ -54,22 +54,27 @@ function Home(props) {
       <div className="section" id="project">
         <p className="sectiontitle">projects()</p>
 
-        {ProjectItems.map((item, id) => {
+        {ProjectItems.map((project, projectId) => {
           return (
-            <Link to={`/projectDetail/${item.projectName}`} key={id}>
+            <Link
+              to={{
+                pathname: '/projectDetail',
+                state: { hehe: project },
+              }}
+              key={projectId}>
               <div className="containerproject">
                 <img
-                  src={item.ProjectCover}
+                  src={project.ProjectCover}
                   alt="Project Cover"
                   className="projectcover"
                 />
                 <div className="projectdesc">
-                  <p className="projectname">{item.projectName}</p>
-                  <p className="sectionparagraph">{item.projectDesc}</p>
+                  <p className="projectname">{project.projectName}</p>
+                  <p className="sectionparagraph">{project.projectDesc}</p>
                   <p className="techtitle">Technologies :</p>
                   <div className="projectbottom">
                     <ul>
-                      {item.projectTech.map((tech, techId) => {
+                      {project.projectTech.map((tech, techId) => {
                         return <li className="projecttech" key={techId}>{tech}</li>;
                       })}
                     </ul>

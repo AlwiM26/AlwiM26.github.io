@@ -1,19 +1,19 @@
 import { useState } from "react";
-import { useParams } from 'react-router-dom';
 import "./ProjectDetail.css";
-import ProjectItems from './ProjectItems';
 
 function ProjectDetail(props) {
   const [openedModal, setOpenedModal] = useState(false);
   const [whichModal, setWhichModal] = useState(null);
-  const { name } = useParams();
 
   const handleModal = (val = null) => {
     setOpenedModal(!openedModal);
     setWhichModal(val);
   };
 
-  const { projectName, projectLink, projectDesc, projectTech, projectSSMain, projectSS } = ProjectItems.find(project => project.projectName === name);
+  const projectData = props.location.state;
+  console.log(projectData);
+
+  const { projectName, projectLink, projectDesc, projectTech, projectSSMain, projectSS } = projectData.hehe;
 
   return (
     <div>
