@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f61064b.chunk.css",
+    "main.js": "/static/js/main.7daf5b28.chunk.js",
+    "main.js.map": "/static/js/main.7daf5b28.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.32350e94.js",
+    "runtime-main.js.map": "/static/js/runtime-main.32350e94.js.map",
+    "static/js/2.98a3d545.chunk.js": "/static/js/2.98a3d545.chunk.js",
+    "static/js/2.98a3d545.chunk.js.map": "/static/js/2.98a3d545.chunk.js.map",
+    "static/js/3.67c95b6d.chunk.js": "/static/js/3.67c95b6d.chunk.js",
+    "static/js/3.67c95b6d.chunk.js.map": "/static/js/3.67c95b6d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1f61064b.chunk.css.map": "/static/css/main.1f61064b.chunk.css.map",
+    "static/js/2.98a3d545.chunk.js.LICENSE.txt": "/static/js/2.98a3d545.chunk.js.LICENSE.txt",
+    "static/media/CikPuan1.cc23aa6c.png": "/static/media/CikPuan1.cc23aa6c.png",
+    "static/media/CikPuan2.eeabc7c5.png": "/static/media/CikPuan2.eeabc7c5.png",
+    "static/media/CikPuan3.17bfe4b7.png": "/static/media/CikPuan3.17bfe4b7.png",
+    "static/media/CikPuan4.f06edd82.png": "/static/media/CikPuan4.f06edd82.png",
+    "static/media/CikPuan5.2529c21d.png": "/static/media/CikPuan5.2529c21d.png",
+    "static/media/CikPuan6.2e8523a5.png": "/static/media/CikPuan6.2e8523a5.png",
+    "static/media/CikPuan7.5733d7fa.png": "/static/media/CikPuan7.5733d7fa.png",
+    "static/media/CikPuanCover.c468078f.jpg": "/static/media/CikPuanCover.c468078f.jpg",
+    "static/media/MIC1.abb88744.png": "/static/media/MIC1.abb88744.png",
+    "static/media/MIC2.8e45d463.png": "/static/media/MIC2.8e45d463.png",
+    "static/media/MIC3.b39ca8a9.png": "/static/media/MIC3.b39ca8a9.png",
+    "static/media/MIC4.3e64e239.png": "/static/media/MIC4.3e64e239.png",
+    "static/media/MIC5.5a016c73.png": "/static/media/MIC5.5a016c73.png",
+    "static/media/MIC6.3c496b24.png": "/static/media/MIC6.3c496b24.png",
+    "static/media/MIC7.636f8256.png": "/static/media/MIC7.636f8256.png",
+    "static/media/MICCover.1c36d2ef.jpg": "/static/media/MICCover.1c36d2ef.jpg",
+    "static/media/Resume_AlwiMuhammad.6f8ce696.pdf": "/static/media/Resume_AlwiMuhammad.6f8ce696.pdf",
+    "static/media/ava.512d95b7.jpg": "/static/media/ava.512d95b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32350e94.js",
+    "static/js/2.98a3d545.chunk.js",
+    "static/css/main.1f61064b.chunk.css",
+    "static/js/main.7daf5b28.chunk.js"
+  ]
+}
