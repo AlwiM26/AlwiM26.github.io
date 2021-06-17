@@ -13,7 +13,7 @@ function ProjectDetail(props) {
   const projectData = props.location.state;
   console.log(projectData);
 
-  const { projectName, projectLink, projectDesc, projectTech, projectSSMain, projectSS } = projectData.hehe;
+  const { projectName, projectLink, projectDesc, projectTech, projectSSMain, projectSS } = projectData.project;
 
   return (
     <div>

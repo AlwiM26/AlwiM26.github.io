@@ -10,7 +10,7 @@ function Home(props) {
       <div className="hero" id="about">
         <div className="introsection">
           <p className="personalname">
-            Hello👋, <br /> I'm Alwi Muhammad
+            Hi👋, <br /> I'm Alwi Muhammad
             <a
               href="https://www.linkedin.com/in/alwimhd/"
               target="_blank"
@@ -59,7 +59,7 @@ function Home(props) {
             <Link
               to={{
                 pathname: '/projectDetail',
-                state: { hehe: project },
+                state: { project: project },
               }}
               key={projectId}>
               <div className="containerproject">
