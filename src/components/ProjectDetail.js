@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useParams } from "react-router";
+import ProjectItems from "./ProjectItems";
 import "./ProjectDetail.css";
 
 function ProjectDetail(props) {
@@ -10,10 +12,9 @@ function ProjectDetail(props) {
     setWhichModal(val);
   };
 
-  const projectData = props.location.state;
-  console.log(projectData);
+  const { name } = useParams();
 
-  const { projectName, projectLink, projectDesc, projectTech, projectSSMain, projectSS } = projectData.project;
+  const { projectName, projectLink, projectDesc, projectTech, projectSSMain, projectSS } = ProjectItems.find(project => project.pid === name);
 
   return (
     <div>

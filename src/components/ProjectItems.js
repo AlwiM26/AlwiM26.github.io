@@ -18,6 +18,7 @@ import mic7 from "../images/MIC/MIC7.png";
 
 const ProjectItems = [
   {
+    pid: "cikpuan",
     projectName: "CikPuan",
     ProjectCover: coverCikPuan,
     projectDesc:
@@ -30,6 +31,7 @@ const ProjectItems = [
     ],
   },
   {
+    pid: "MIC",
     projectName: "Musical Instrument Classifier",
     ProjectCover: coverMIC,
     projectDesc:

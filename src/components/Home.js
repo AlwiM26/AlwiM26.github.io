@@ -57,10 +57,7 @@ function Home(props) {
         {ProjectItems.map((project, projectId) => {
           return (
             <Link
-              to={{
-                pathname: '/projectDetail',
-                state: { project: project },
-              }}
+              to={`/projectDetail/${project.pid}`}
               key={projectId}>
               <div className="containerproject">
                 <img

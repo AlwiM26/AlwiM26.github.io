@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/projectDetail" exact component={ProjectDetail} />
+        <Route path="/projectDetail/:name" component={ProjectDetail} />
       </Switch>
       <Footer />
     </Router>
