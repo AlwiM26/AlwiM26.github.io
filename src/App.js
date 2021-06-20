@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import ProjectDetail from "./components/ProjectDetail";
 import Navbar from "./components/Navbar/Navbar";
@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <Navbar />
       <Switch>
@@ -16,7 +16,7 @@ function App() {
         <Route path="/projectDetail" component={ProjectDetail} />
       </Switch>
       <Footer />
-    </Router>
+    </>
   );
 }
 
