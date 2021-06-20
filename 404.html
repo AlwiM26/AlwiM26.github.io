@@ -4,6 +4,70 @@
 <head>
     <meta charset="utf-8">
     <title>Single Page Apps for GitHub Pages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #070707;
+            color: #dfe1e5;
+        }
+
+        body {
+        height: 100%;
+        position: relative;
+        }
+
+        html {
+        height: 100%;
+        font-size: 70%;
+        font-family: Source Code Pro;
+        scroll-behavior: smooth;
+        }
+
+        #root {
+        height: 100%;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        .containernotfound {
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem;
+        }
+
+        .notfoundtitle {
+            font-size: 25vh;
+        }
+
+        .containernotfounddetail {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .btnhome {
+            margin: 0 auto;
+            margin-top: 14px;
+            border: 1px solid #dfe1e5;
+            padding: 1.5rem;
+            font-size: 14px;
+        }
+
+        .notfounddesc {
+            font-size: 1.25vh;
+        }
+    </style>
     <script type="text/javascript">
         // Single Page Apps for GitHub Pages
         // MIT License
@@ -36,7 +100,13 @@
 
     </script>
 </head>
-
+    <div class="containernotfound">
+        <p class="notfoundtitle">404</p>
+        <div class="containernotfounddetail">
+            <p class="notfounddesc">Page Not Found <br /> The page you are looking for doesn't exist or has been moved</p>
+            <a href="/" class="btnhome">Go back to home</a>
+        </div>
+    </div>
 <body>
 </body>
 
