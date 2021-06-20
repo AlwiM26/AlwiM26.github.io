@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={public.env.PUBLIC_URL}>
+    <Router>
       <ScrollToTop />
       <Navbar />
       <Switch>
