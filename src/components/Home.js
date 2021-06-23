@@ -27,7 +27,7 @@ function Home(props) {
             </a>
             {/* <a href="https://medium.com/@AlwiM" target="_blank" rel="noreferrer"><i className="fab fa-medium-m btnsocial"></i></a> */}
           </p>
-          <p className="job">Software engineer | Fresh graduate</p>
+          <p className="job">Fresh graduate</p>
         </div>
         <img src={ava} alt="Profile" className="avatar" />
       </div>

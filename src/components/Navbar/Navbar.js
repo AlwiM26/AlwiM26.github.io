@@ -7,15 +7,15 @@ import "./Navbar.css";
 function Navbar(props) {
   const [clicked, setClicked] = useState(false);
 
-  const handleClick = () => {
-    setClicked(!clicked);
+  const handleClick = (val = !clicked) => {
+    setClicked(val);
   };
 
   return (
     <div className="header">
       <div className="topnav">
         <Link to="/">
-          <img src={logo} className="navlogo" alt="Logo" />
+          <img src={logo} className="navlogo" alt="Logo" onClick={() => handleClick(false)} />
         </Link>
         <ul className={clicked ? "menunav active" : "menunav"}>
           <li className="itemnav">
