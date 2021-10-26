@@ -22,7 +22,8 @@ const ProjectItems = [
     projectName: "CikPuan",
     ProjectCover: coverCikPuan,
     projectDesc:
-      "Cik Puan is an android-based application developed by Politeknik Caltex Riau in collaboration with the Pekanbaru City Government to check and trace covid 19 cases in Pekanbaru. This application also has other features, including: Covid-19 Check, Early Warning Destination, Covid-19 Education and Hospital Information.",
+      "Cik Puan is an android-based application developed by Politeknik Caltex Riau in collaboration with the Pekanbaru City Government to check and trace Covid 19 cases in Pekanbaru. This application also has other features, including: Covid-19 Check, Early Warning Destination, Covid-19 Education and Hospital Information.",
+    projectRole: "I build the Early warning destination page that have 3 main feature, the first one is to check Covid-19 case based on the sub-district name, the second one is a function to automatically check and notify the user if the user is in 100 meters range from the Red Zone (Sub district that have more than 2 case of Covid-19), the last feature is a realtime maps that show all the sub district and show all the Covid-19 case.",
     projectTech: ["Dart", "Flutter"],
     projectSSMain: cp1,
     projectSS: [cp2, cp3, cp4, cp5, cp6, cp7],
@@ -34,8 +35,8 @@ const ProjectItems = [
     pid: "MIC",
     projectName: "Musical Instrument Classifier",
     ProjectCover: coverMIC,
-    projectDesc:
-      "MIC Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere vitae vel, velit rem possimus libero nulla ipsam eligendi ab, eius qui molestiae laboriosam. Qui quis animi cum nulla quas!",
+    projectDesc: "Musical Instrument Classifier is an Android-based apps to classify Indonesia traditional musical instrument using the sound of the musicla instrument, I build this apps for my final year project using Android (Java) as the client apps, Python Flask for the backend to convert the audio sent from the client apps into an image called Spectrogram, classify the image using Machine Learning algorithm called Convolutional Neural Network.",
+    projectRole: "",
     projectTech: ["Java", "Python", "Tensorflow", "FFMPEG"],
     projectSSMain: mic1,
     projectSS: [mic2, mic3, mic4, mic5, mic6, mic7],
