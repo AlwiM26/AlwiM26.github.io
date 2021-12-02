@@ -50,7 +50,7 @@ function ProjectDetail(props) {
             className="imgappsf"
             onClick={() => handleModal(projectSSMain)}
           />
-          <div className="containerssinner">
+          {projectSS && <div className="containerssinner">
             {projectSS.map((ss, ssId) => {
               return (
                 <img
@@ -62,12 +62,12 @@ function ProjectDetail(props) {
                 />
               );
             })}
-          </div>
+          </div>}
         </div>
         <p className="techtitledetail">Description :</p>
         <p className="projectbio">{projectDesc}</p>
-        <p className="techtitledetail" style={{display: !projectRole ? 'none' : 'flex'}}>My Role :</p>
-        <p className="projectbio" style={{display: !projectRole ? 'none' : 'flex'}}>{projectRole}</p>
+        <p className="techtitledetail" style={{ display: !projectRole ? 'none' : 'flex' }}>My Role :</p>
+        <p className="projectbio" style={{ display: !projectRole ? 'none' : 'flex' }}>{projectRole}</p>
       </div>
 
       <div

@@ -61,7 +61,7 @@ function Home(props) {
               key={projectId}>
               <div className="containerproject">
                 <img
-                  src={project.ProjectCover}
+                  src={project.projectCover}
                   alt="Project Cover"
                   className="projectcover"
                 />

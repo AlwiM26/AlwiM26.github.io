@@ -50,6 +50,7 @@
 .sectionparagraph {
   font-size: 17px;
   margin-bottom: 14px;
+  text-align: justify;
 }
 
 .btnresume {
@@ -141,5 +142,9 @@
 
   .containerproject {
     flex-direction: column;
+  }
+
+  .sectionparagraph {
+    text-align: left;
   }
 }
