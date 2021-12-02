@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6177065a.chunk.css",
-    "main.js": "/static/js/main.8d0b4a34.chunk.js",
-    "main.js.map": "/static/js/main.8d0b4a34.chunk.js.map",
+    "main.css": "/static/css/main.da441d0a.chunk.css",
+    "main.js": "/static/js/main.210de816.chunk.js",
+    "main.js.map": "/static/js/main.210de816.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.32350e94.js",
     "runtime-main.js.map": "/static/js/runtime-main.32350e94.js.map",
     "static/js/2.db42c9d1.chunk.js": "/static/js/2.db42c9d1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.67c95b6d.chunk.js": "/static/js/3.67c95b6d.chunk.js",
     "static/js/3.67c95b6d.chunk.js.map": "/static/js/3.67c95b6d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6177065a.chunk.css.map": "/static/css/main.6177065a.chunk.css.map",
+    "static/css/main.da441d0a.chunk.css.map": "/static/css/main.da441d0a.chunk.css.map",
     "static/js/2.db42c9d1.chunk.js.LICENSE.txt": "/static/js/2.db42c9d1.chunk.js.LICENSE.txt",
     "static/media/CikPuan1.cc23aa6c.png": "/static/media/CikPuan1.cc23aa6c.png",
     "static/media/CikPuan2.eeabc7c5.png": "/static/media/CikPuan2.eeabc7c5.png",
@@ -20,6 +20,8 @@
     "static/media/CikPuan6.2e8523a5.png": "/static/media/CikPuan6.2e8523a5.png",
     "static/media/CikPuan7.5733d7fa.png": "/static/media/CikPuan7.5733d7fa.png",
     "static/media/CikPuanCover.c468078f.jpg": "/static/media/CikPuanCover.c468078f.jpg",
+    "static/media/Desktop.bff07193.png": "/static/media/Desktop.bff07193.png",
+    "static/media/GUCover.64ab781a.png": "/static/media/GUCover.64ab781a.png",
     "static/media/MIC1.abb88744.png": "/static/media/MIC1.abb88744.png",
     "static/media/MIC2.8e45d463.png": "/static/media/MIC2.8e45d463.png",
     "static/media/MIC3.b39ca8a9.png": "/static/media/MIC3.b39ca8a9.png",
@@ -28,13 +30,15 @@
     "static/media/MIC6.3c496b24.png": "/static/media/MIC6.3c496b24.png",
     "static/media/MIC7.636f8256.png": "/static/media/MIC7.636f8256.png",
     "static/media/MICCover.1c36d2ef.jpg": "/static/media/MICCover.1c36d2ef.jpg",
+    "static/media/Mobile.79e1a721.png": "/static/media/Mobile.79e1a721.png",
     "static/media/Resume_AlwiMuhammad.6f8ce696.pdf": "/static/media/Resume_AlwiMuhammad.6f8ce696.pdf",
+    "static/media/Tablet.8a753bd6.png": "/static/media/Tablet.8a753bd6.png",
     "static/media/ava.512d95b7.jpg": "/static/media/ava.512d95b7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.32350e94.js",
     "static/js/2.db42c9d1.chunk.js",
-    "static/css/main.6177065a.chunk.css",
-    "static/js/main.8d0b4a34.chunk.js"
+    "static/css/main.da441d0a.chunk.css",
+    "static/js/main.210de816.chunk.js"
   ]
 }
